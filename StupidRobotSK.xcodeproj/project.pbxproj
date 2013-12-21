@@ -409,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StupidRobotSK/StupidRobotSK-Prefix.pch";
 				INFOPLIST_FILE = "StupidRobotSK/StupidRobotSK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -423,6 +424,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StupidRobotSK/StupidRobotSK-Prefix.pch";
 				INFOPLIST_FILE = "StupidRobotSK/StupidRobotSK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -490,6 +492,7 @@
 				4F3EC96D186335E700031287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F3EC96E186335E700031287 /* Build configuration list for PBXNativeTarget "StupidRobotSKTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +501,7 @@
 				4F3EC970186335E700031287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
