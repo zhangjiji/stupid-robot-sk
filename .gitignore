@@ -19,3 +19,6 @@ DerivedData
 
 #CocoaPods
 Pods
+*.xcodeproj/xcuserdata/*
+StupidRobotSK.xcodeproj/xcshareddata/xcschemes
+StupidRobotSK.xcodeproj/xcuserdata/zhangjiji.xcuserdatad/xcschemes/xcschememanagement.plist

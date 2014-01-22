@@ -7,6 +7,11 @@
 //
 
 #import "MyScene.h"
+#import "Model.h"
+
+@interface MyScene ()
+@property (nonatomic, strong) NSString* labelText;
+@end
 
 @implementation MyScene
 
@@ -24,6 +29,33 @@
                                        CGRectGetMidY(self.frame));
         
         [self addChild:myLabel];
+        
+//        RAC(self,labelText) = [RACObserve(myLabel, fontSize) map:^id(NSString* value) {
+//            return @([value floatValue]);
+//        }];
+        
+        RAC(self, labelText) = [RACObserve(myLabel, fontSize) distinctUntilChanged];
+        
+        myLabel.fontSize = 29;
+        myLabel.fontSize = 28;
+        
+        [RACObserve(self, labelText) subscribeNext:^(id x) {
+            NSLog(@"RACObserve log: %@", x);
+        }];
+        
+        myLabel.text = @"Hello2";
+        
+        NSArray* array = @[@"1", @"2", @"3", @"4", @"5"];
+        
+        Model* model = [[Model alloc] init];
+        
+        __block NSUInteger index = 0;
+        [[model completeSignal] subscribeNext:^(NSNumber* complete) {
+            if(complete.boolValue == YES && index < array.count)
+            {
+                [model playAnimationByName:array[index++]];
+            }
+        }];
     }
     return self;
 }

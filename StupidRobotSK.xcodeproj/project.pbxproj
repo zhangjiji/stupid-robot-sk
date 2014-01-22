@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F048047188FF343004BD801 /* libextobjc_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F04803E188FF30F004BD801 /* libextobjc_iOS.a */; };
+		4F048048188FF343004BD801 /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F048029188FF300004BD801 /* libMantle-iOS.a */; };
 		4F3EC933186335E700031287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3EC932186335E700031287 /* Foundation.framework */; };
 		4F3EC935186335E700031287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3EC934186335E700031287 /* CoreGraphics.framework */; };
 		4F3EC937186335E700031287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3EC936186335E700031287 /* UIKit.framework */; };
@@ -25,9 +27,88 @@
 		4F3EC95E186335E700031287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3EC936186335E700031287 /* UIKit.framework */; };
 		4F3EC966186335E700031287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F3EC964186335E700031287 /* InfoPlist.strings */; };
 		4F3EC968186335E700031287 /* StupidRobotSKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3EC967186335E700031287 /* StupidRobotSKTests.m */; };
+		4F4A84D31886F22B0006BCBB /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A84C81886F21C0006BCBB /* libReactiveCocoa-iOS.a */; };
+		4F69760318880EE000B87115 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69760218880EE000B87115 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4F048024188FF300004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = Mantle;
+		};
+		4F048026188FF300004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle Tests";
+		};
+		4F048028188FF300004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC7915F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		4F04802A188FF300004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC8715F72BC7004E8054;
+			remoteInfo = "Mantle-iOS Tests";
+		};
+		4F04802C188FF300004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A56B461804B04900A84EDC;
+			remoteInfo = "Mantle-Mac";
+		};
+		4F04803B188FF30F004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libextobjc (OS X)";
+		};
+		4F04803D188FF30F004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A8B029128A4261004AACE0;
+			remoteInfo = "libextobjc (iOS)";
+		};
+		4F04803F188FF30F004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A8B2DC128A495D004AACE0;
+			remoteInfo = "OS X Tests";
+		};
+		4F048041188FF30F004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0CFB60F128A8EEE006DC377;
+			remoteInfo = "iOS Tests";
+		};
+		4F048043188FF33A004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A8B028128A4261004AACE0;
+			remoteInfo = "libextobjc (iOS)";
+		};
+		4F048045188FF33A004BD801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D042FC7815F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
 		4F3EC95F186335E700031287 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4F3EC927186335E700031287 /* Project object */;
@@ -35,9 +116,67 @@
 			remoteGlobalIDString = 4F3EC92E186335E700031287;
 			remoteInfo = StupidRobotSK;
 		};
+		4F4A84C51886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		4F4A84C71886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		4F4A84C91886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		4F4A84CB1886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		4F4A84CD1886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		4F4A84CF1886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		4F4A84D11886F21C0006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		4F4A84D41886F2350006BCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F440AA153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F04801A188FF300004BD801 /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
+		4F048034188FF30F004BD801 /* extobjc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extobjc.xcodeproj; path = libextobjc/extobjc.xcodeproj; sourceTree = "<group>"; };
 		4F3EC92F186335E700031287 /* StupidRobotSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidRobotSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3EC932186335E700031287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3EC934186335E700031287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +201,9 @@
 		4F3EC963186335E700031287 /* StupidRobotSKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StupidRobotSKTests-Info.plist"; sourceTree = "<group>"; };
 		4F3EC965186335E700031287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F3EC967186335E700031287 /* StupidRobotSKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StupidRobotSKTests.m; sourceTree = "<group>"; };
+		4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		4F69760118880EE000B87115 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		4F69760218880EE000B87115 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +211,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F048047188FF343004BD801 /* libextobjc_iOS.a in Frameworks */,
+				4F048048188FF343004BD801 /* libMantle-iOS.a in Frameworks */,
+				4F4A84D31886F22B0006BCBB /* libReactiveCocoa-iOS.a in Frameworks */,
 				4F3EC935186335E700031287 /* CoreGraphics.framework in Frameworks */,
 				4F3EC937186335E700031287 /* UIKit.framework in Frameworks */,
 				4F3EC939186335E700031287 /* SpriteKit.framework in Frameworks */,
@@ -89,6 +234,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F04801B188FF300004BD801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F048025188FF300004BD801 /* Mantle.framework */,
+				4F048027188FF300004BD801 /* Mantle Tests.octest */,
+				4F048029188FF300004BD801 /* libMantle-iOS.a */,
+				4F04802B188FF300004BD801 /* Mantle-iOS Tests.octest */,
+				4F04802D188FF300004BD801 /* libMantle-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F048035188FF30F004BD801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F04803C188FF30F004BD801 /* libextobjc_OSX.a */,
+				4F04803E188FF30F004BD801 /* libextobjc_iOS.a */,
+				4F048040188FF30F004BD801 /* Logic Tests.octest */,
+				4F048042188FF30F004BD801 /* iOS Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4F3EC926186335E700031287 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +264,9 @@
 				4F3EC961186335E700031287 /* StupidRobotSKTests */,
 				4F3EC931186335E700031287 /* Frameworks */,
 				4F3EC930186335E700031287 /* Products */,
+				4F048034188FF30F004BD801 /* extobjc.xcodeproj */,
+				4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */,
+				4F04801A188FF300004BD801 /* Mantle.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +302,8 @@
 				4F3EC94D186335E700031287 /* ViewController.m */,
 				4F3EC94F186335E700031287 /* MyScene.h */,
 				4F3EC950186335E700031287 /* MyScene.m */,
+				4F69760118880EE000B87115 /* Model.h */,
+				4F69760218880EE000B87115 /* Model.m */,
 				4F3EC952186335E700031287 /* Spaceship.png */,
 				4F3EC954186335E700031287 /* Images.xcassets */,
 				4F3EC93B186335E700031287 /* Supporting Files */,
@@ -167,6 +340,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4F4A84BA1886F21B0006BCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4A84C61886F21C0006BCBB /* ReactiveCocoa.framework */,
+				4F4A84C81886F21C0006BCBB /* libReactiveCocoa-iOS.a */,
+				4F4A84CA1886F21C0006BCBB /* ReactiveCocoaTests.octest */,
+				4F4A84CC1886F21C0006BCBB /* ReactiveCocoaTests-iOS.octest */,
+				4F4A84CE1886F21C0006BCBB /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				4F4A84D01886F21C0006BCBB /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				4F4A84D21886F21C0006BCBB /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +368,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				4F048044188FF33A004BD801 /* PBXTargetDependency */,
+				4F048046188FF33A004BD801 /* PBXTargetDependency */,
+				4F4A84D51886F2350006BCBB /* PBXTargetDependency */,
 			);
 			name = StupidRobotSK;
 			productName = StupidRobotSK;
@@ -230,6 +420,20 @@
 			mainGroup = 4F3EC926186335E700031287;
 			productRefGroup = 4F3EC930186335E700031287 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F048035188FF30F004BD801 /* Products */;
+					ProjectRef = 4F048034188FF30F004BD801 /* extobjc.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F04801B188FF300004BD801 /* Products */;
+					ProjectRef = 4F04801A188FF300004BD801 /* Mantle.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F4A84BA1886F21B0006BCBB /* Products */;
+					ProjectRef = 4F4A84B91886F21B0006BCBB /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F3EC92E186335E700031287 /* StupidRobotSK */,
@@ -237,6 +441,121 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F048025188FF300004BD801 /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mantle.framework;
+			remoteRef = 4F048024188FF300004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F048027188FF300004BD801 /* Mantle Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle Tests.octest";
+			remoteRef = 4F048026188FF300004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F048029188FF300004BD801 /* libMantle-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-iOS.a";
+			remoteRef = 4F048028188FF300004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F04802B188FF300004BD801 /* Mantle-iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-iOS Tests.octest";
+			remoteRef = 4F04802A188FF300004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F04802D188FF300004BD801 /* libMantle-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-Mac.a";
+			remoteRef = 4F04802C188FF300004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F04803C188FF30F004BD801 /* libextobjc_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libextobjc_OSX.a;
+			remoteRef = 4F04803B188FF30F004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F04803E188FF30F004BD801 /* libextobjc_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libextobjc_iOS.a;
+			remoteRef = 4F04803D188FF30F004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F048040188FF30F004BD801 /* Logic Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Logic Tests.octest";
+			remoteRef = 4F04803F188FF30F004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F048042188FF30F004BD801 /* iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS Tests.octest";
+			remoteRef = 4F048041188FF30F004BD801 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84C61886F21C0006BCBB /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 4F4A84C51886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84C81886F21C0006BCBB /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 4F4A84C71886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84CA1886F21C0006BCBB /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 4F4A84C91886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84CC1886F21C0006BCBB /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 4F4A84CB1886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84CE1886F21C0006BCBB /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 4F4A84CD1886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84D01886F21C0006BCBB /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 4F4A84CF1886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A84D21886F21C0006BCBB /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = 4F4A84D11886F21C0006BCBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F3EC92D186335E700031287 /* Resources */ = {
@@ -270,6 +589,7 @@
 				4F3EC94E186335E700031287 /* ViewController.m in Sources */,
 				4F3EC945186335E700031287 /* AppDelegate.m in Sources */,
 				4F3EC941186335E700031287 /* main.m in Sources */,
+				4F69760318880EE000B87115 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +604,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4F048044188FF33A004BD801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libextobjc (iOS)";
+			targetProxy = 4F048043188FF33A004BD801 /* PBXContainerItemProxy */;
+		};
+		4F048046188FF33A004BD801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantle-iOS";
+			targetProxy = 4F048045188FF33A004BD801 /* PBXContainerItemProxy */;
+		};
 		4F3EC960186335E700031287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4F3EC92E186335E700031287 /* StupidRobotSK */;
 			targetProxy = 4F3EC95F186335E700031287 /* PBXContainerItemProxy */;
+		};
+		4F4A84D51886F2350006BCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-iOS";
+			targetProxy = 4F4A84D41886F2350006BCBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,8 +743,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StupidRobotSK/StupidRobotSK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					libextobjc,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "StupidRobotSK/StupidRobotSK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -423,8 +765,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StupidRobotSK/StupidRobotSK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					libextobjc,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "StupidRobotSK/StupidRobotSK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -448,6 +797,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "StupidRobotSKTests/StupidRobotSKTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -467,6 +822,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StupidRobotSK/StupidRobotSK-Prefix.pch";
 				INFOPLIST_FILE = "StupidRobotSKTests/StupidRobotSKTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
